@@ -58,7 +58,7 @@ def pattern_to_number(text):
 def number_to_pattern(index, k):
 	“”””converts nucleotide number to string”””
 	number_to_symbol = {0 : 'A', 1 : 'C', 2 : 'G', 3 : 'T'}
-if k==1:
+        if k==1:
 		return number_to_symbol[index]
 	prefixindex = index//4
 	symbol =number_to_symbol[(index % 4)] 
